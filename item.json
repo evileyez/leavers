@@ -1,18 +1,16 @@
-// пример карточки компании
 {
 	"id": 0,
-	"name" : "Google", // название компании
-	"segment": 0, // id сегмента экономики (от 0 до 9)
-	"level": 0,// id сегмента недружелюбности (от 0 до 2)
-	"url": "https://google.com", // адрес сайта
-	"date" : "03.03.2022",// дата ухода с рынка
-	"description": "Крупнейший поисковик", // описание
-	"proofImage": "img/proof/google.png", // адрес скриншота пруфа
-	"proofLinks": [ // ссылки на сайты с пруфами
+	"name" : "Google",
+	"segment": 0,
+	"url": "https://google.com",
+	"leftDate" : "03.03.2022",
+	"description": "Крупнейший поисковик",
+	"proofImage": "img/proof/google.png",
+	"proofLinks": [
 			{"name": "Официальный сайт", "link": "https://google.com/exodus-statement"},
 			{"name": "Газета 1", "link": "https://vedomosti.ru/213"},
 			{"name": "Газета 2", "link": "https://vedomosti2.ru/123"}
 		],
-		"comment": "приостанавливает рекламу, блокирует госаккануты", // комментарий 
-		"analog": [0, 3, 17, 22] // id сервисов-аналогов 
+		"comment": "приостанавливил рекламу, заблокировал кабинеты российский пользователей",
+		"analogServices": [0, 3, 17, 22]
 }
