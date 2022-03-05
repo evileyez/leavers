@@ -1,9 +1,14 @@
 {
 	"id": 0,
 	"name" : "Google",
+	"decisionMadeBy": [
+		{"id": 0, "name": "Top Manager 1"},
+		{"id": 1, "name": "Top Manager 2"}
+	]
 	"segment": 0,
 	"url": "https://google.com",
 	"leftDate" : "03.03.2022",
+	"returnDate": null
 	"description": "Крупнейший поисковик",
 	"proofImage": "img/proof/google.png",
 	"proofLinks": [
